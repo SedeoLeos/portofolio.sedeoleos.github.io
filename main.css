@@ -1,0 +1,202 @@
+.main {
+    overflow: hidden;
+    /* background-color: #838282; */
+    padding-left: 300px;
+    /* position: relative; */
+    /* top: 0px; 
+    left: 300px; 
+    /* height: 1456px; */
+}
+
+
+
+
+
+.mix {
+    padding: 0 20px;
+    background-color: rgb(255, 255, 255);
+    flex: 1 0 auto;
+    /* height: 500px; */
+
+}
+
+.item-rigth {
+    align-self: end;
+    padding: 20px;
+    width: 50%;
+    /* background-color: #27282967; */
+}
+
+.dev {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.dev h2 {
+    width: 100%;
+}
+
+.dev div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.dev div p {
+    width: 300px;
+}
+
+.card {
+
+    /* box-shadow: 1px 1px 10px 5px rgba(101, 100, 100, 0.3); */
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(99, 139, 151);
+    overflow: hidden;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: none;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+
+div.title {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Bodoni MT";
+}
+
+div.title div {}
+
+div.title h1 {
+    margin: 20px 0;
+}
+
+div.title span {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #272829;
+}
+
+div.mix.about p {
+    margin: 0px 100px;
+}
+
+.grid-flex {
+    margin: 50px;
+display: flex;
+justify-content: space-around;
+    /* min-width: 200vh; */
+    /* overflow-x: scroll;
+    overflow: hidden;
+    max-height: 655px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+
+}
+.display-flex{
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.esp {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #C1C1C1;
+    border-radius: 5px;
+    width: 350px;
+    min-height: 300px;
+}
+
+.entreprise {
+    height: 100px;
+}
+
+.flex-dl {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-tools {
+    margin: 20px 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.tool {
+    flex: 1 0 350px;
+    margin: 20px 50px;
+    border-radius: 5px;
+    width: 350px;
+    height: 120px;
+    box-shadow: 0px 2px 15px 5px rgba(201, 197, 197, 0.274);
+}
+
+.DT {
+    flex: 1 0 350px;
+    margin: 20px 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc5c;
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 2px 10px rgba(201, 197, 197, 0.5);
+}
+
+.control {
+
+    position: relative;
+    display: flex;
+    margin: 20px;
+}
+
+input {
+    width: 400px;
+    height: 60px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #737487;
+}
+
+textarea {
+    width: 400px;
+    height: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #737487;
+}
+
+label {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+div.form {
+    width: 100%;
+    padding: 50px;
+}
+
+/* ---------------------------------
+
+            Profile information
+
+-------------------------------------*/
+.profil-info {
+    height: 100px;
+    border-radius: 5px;
+    margin: 10px 100px;
+    padding: 10px;
+}

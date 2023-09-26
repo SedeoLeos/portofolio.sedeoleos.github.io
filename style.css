@@ -1,0 +1,54 @@
+:root{
+    --space:10px;
+    --primary-color:#131A21;
+    --primary-color-soft:#121f2c;
+    --white-dark-color:#fff;
+
+
+}
+::after,
+::before,
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-decoration-color: var(--white-dark-color);
+
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: var(--primary-color);
+
+
+}
+
+.siderbar-fixed {
+    display: none;
+}
+
+.body-active .siderbar-fixed {
+    position: fixed;
+    z-index: 4;
+    /* position: relative; */
+    width: 300px;
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    color: var(--white-dark-color);
+    /* overflow-y: scroll; */
+    /* padding: 0 20px; */
+}
+
+
+
+
+/* Main */
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
