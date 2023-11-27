@@ -52,35 +52,32 @@ const narcAnimate = new Narcissique({
 narcAnimate.autoRunnig(250)
 
 
-const element = document.getElementById("slide-paginate")
-console.log(element.clientWidth)
-console.log(element.clientHeight)
-console.log(document.body.clientWidth)
 
-new Swiper('.experience-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      }
+const changeTheme = document.getElementById('theme');
+changeTheme.addEventListener('click',(ev)=>{
+    if(changeTheme.children[0].classList.contains('bx-sun')){
+        changeTheme.children[0].classList.remove('bx-sun')
+        changeTheme.children[0].classList.add('bx-moon')
+    }else{
+        changeTheme.children[0].classList.remove('bx-moon')
+        changeTheme.children[0].classList.add('bx-sun')   
     }
-  });
+})
+
+const drawer = document.getElementById('drawer');
+drawer.addEventListener('click',(ev)=>{
+    if(drawer.children[0].classList.contains('bx-x')){
+        drawer.children[0].classList.remove('bx-x')
+        drawer.children[0].classList.add('bx-menu')
+        document.getElementsByTagName('body')[0].classList.remove('active')
+    }else{
+        drawer.children[0].classList.remove('bx-menu')
+        drawer.children[0].classList.add('bx-x') 
+        // console.log(document.getElementsByName('body'))
+        console.log(document.getElementsByTagName('body')[0].classList.add('active'))
+        // document.getElementsByTagName('body').classList.remove('active')
+
+    }
+})
 
 

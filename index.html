@@ -19,7 +19,7 @@
 
 <body class="body-active">
   <div id="particles-js"></div>
-  <header class="siderbar-fixed">
+  <header id="sidbar" class="siderbar-fixed">
     <div class="wrapper">
       <div class="profile">
         <div class="avatar-wapper">
@@ -62,10 +62,12 @@
   </header>
   <main class="scafold">
     <div class="badge-contenaire">
-      <a href="#" class="badge-theme">
+      <button  id="drawer" class="badge-theme" >
+        <i class='bx bx-menu'></i>
+      </button>
+      <button id="theme" class="badge-theme">
         <i class='bx bx-moon'></i>
-        <!-- <i class='bx bx-sun'></i> -->
-      </a>
+      </button>
 
     </div>
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
@@ -78,7 +80,7 @@
         <p>I'm <span class="typed" id="apropoInfo"
             data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
       </div>
-      <div></div>
+      <div class="space-hero"></div>
     </section>
     <section class="skill">
       <div class="card-skill">
@@ -274,88 +276,31 @@
 
 
       </div>
+    </section> 
+    <section class="ex-section column">
+      <form>
+        <div class="column space-between align-item-center form-div">
+          <div class="column input-div">
+            <label>Email</label>
+            <input type="email"/>
+          </div>
+          <div class="column input-div">
+            <label>Message</label>
+            <textarea></textarea>
+          </div>
+          <div class="h-space-5"></div>
+          <div class="row justify-content-end input-div">
+            <button>Envoyer</button>
+          </div> 
+        </div>
+        <div class="h-space-20"></div>
+      </form>
+
     </section>
-
-
-    <!-- <div class="main">
-
-      <div class="mix tech">
-        <div class="title">
-          <div>
-            <h1>Outils et Technologies</h1>
-            <span></span>
-          </div>
-        </div>
-        <div class="flex-tools">
-          <div class="tool"></div>
-          <div class="tool"></div>
-          <div class="tool"></div>
-          <div class="tool"></div>
-          <div class="tool"></div>
-          <div class="tool"></div>
-        </div>
-      </div>
-      <div class="mix diplome">
-        <div class="title">
-          <div>
-            <h1>Diplomes et certificats</h1>
-            <span></span>
-          </div>
-        </div>
-        <div class="flex-tools">
-          <div class="DT"></div>
-          <div class="DT"></div>
-          <div class="DT"></div>
-          <div class="DT"></div>
-          <div class="DT"></div>
-          <div class="DT"></div>
-        </div>
-      </div>
-      <div class="mix realisation">
-        <div class="title">
-          <div>
-            <h1>Réalisation </h1>
-            <span></span>
-          </div>
-        </div>
-        <div class="flex-tools">
-          <div class="tool"></div>
-          <div class="tool"></div>
-          <div class="tool"></div>
-          <div class="tool"></div>
-          <div class="tool"></div>
-          <div class="tool"></div>
-        </div>
-      </div>
-      <div class="mix contact">
-        <div class="title">
-          <div>
-            <h1>Me contacter </h1>
-            <span></span>
-          </div>
-          <div class="form">
-            <form action="" method="post" style="display: flex;align-items: center;flex-direction: column;">
-              <div class="control">
-                <input type="email" name="name" id="name">
-                <label for="email">Nom</label>
-              </div>
-              <div class="control">
-                <input type="email" name="email" id="email">
-                <label for="email">Email</label>
-              </div>
-              <div class="control">
-                <textarea></textarea>
-                <label for="message">Message</label>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <footer style="height: 60px;background-color: #121f2c;z-index: 50000;">
-      footer Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
-      repudiandae magnam aliquam qui dolorem aliquid explicabo earum?
-      Doloribus, esse laboriosam.
+    <footer  class="flex-rom">
+      <span>Slaega</span>
+      <hr class="hr"/>
+      <span>CopyRitgh 2023</span>
     </footer>
 
   </main>
@@ -377,15 +322,6 @@
     autoplay: {
       delay: 10000,
     },
-    /*cubeEffect: {
-      shadow: trye,
-      slideShadows: true,
-      shadowOffset: 0,
-      shadowScale: 0.94,
-    },*/
-    /** pagination: {
-       el: ".swiper-pagination",
-     },**/
   });
 </script>
 

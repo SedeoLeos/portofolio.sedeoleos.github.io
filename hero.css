@@ -2,7 +2,7 @@
     height: 70vh;
     /* background: url("assets/image/hero-bg.jpg") top center; */
     /* background-color: #149ddd;  */
-    background-size: cover;
+    /* background-size: cover; */
     display: grid;
     grid-template-columns: 100px 2fr 1fr;
     grid-template-rows: 1fr;
@@ -48,3 +48,20 @@
     border-bottom: 3px solid var(--primary-color);
   }
   
+  @media  Only screen and (max-width:700px) {
+    #hero {
+        height: auto;
+        padding-top: 100px;
+    }
+    #hero .hero-container {
+        grid-column: 1/4; 
+        z-index: -1; 
+      }
+      #hero  .space-hero {
+        background-color: #131A21;
+        width: 100px;
+        height: 100px;
+        display: none ; 
+      }
+    
+}
