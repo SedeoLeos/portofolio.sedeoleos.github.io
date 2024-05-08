@@ -205,7 +205,7 @@
 body {
     display: flex;
     flex-direction: row;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto Slab", serif;
     color: var(--primary-color);
     scrollbar-width: none;
     height: 100vh;
@@ -238,10 +238,10 @@ body::-webkit-scrollbar {
 
 }
 .font-12 {
- font-size: 12px;
+ font-size: 16px;
 }
 .font-14 {
- font-size: 14px;
+ font-size: 16px;
 }
 
 .badge-contenaire{
@@ -269,13 +269,14 @@ body::-webkit-scrollbar {
 }
 
 .ex-section{
+    overflow: hidden;
     display: flex;
     padding: 50px;
     gap: 20px; 
 }
 /*** Experience ***/
 .ex-ul{
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     gap: 50px;
     flex-direction: column;
@@ -313,22 +314,28 @@ body::-webkit-scrollbar {
     overflow: hidden;
 }
 
-.swiper {
+.swipers {
   width: 100%;
-  height: 150px;
+  height: 350px;
   display: flex;
-  height: 150px;
+  align-items: center;
+  justify-content: center;
 }
 .bg-red {
-    background-color: rgb(180, 80, 80);
+    background-color: rgb(231, 180, 180);
 }
 .bg-green {
-    background-color: rgb(104, 211, 104);
+    background-color: rgb(151, 206, 171);
 }
 .bg-blue {
-    background-color: rgb(96, 96, 221);
+    background-color: rgb(132, 140, 213);
+}
+.swiper-wrapper {
+    width: 80%!important;
+
 }
 .swiper-slide {
+    width: 100%!important;
   background-position: center;
   background-size: cover;
 }
@@ -371,7 +378,7 @@ body::-webkit-scrollbar {
     flex:1;
     display: flex;
     padding: 20px;
-    font-size: 12px;
+    font-size: 16px;
     border-radius: 5px;
     gap: 10px;
     flex-direction: column;
@@ -415,7 +422,7 @@ hr {
     height: 0.5px;
 }
 label {
-    font-size: 12px;
+    font-size: 16px;
 }
 .input-div {
     width: 70%;
@@ -426,7 +433,7 @@ input {
     
     margin-top: 10px;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 16px;
     outline: none;
     border: solid 5px #0c192410;
     padding: 10px;

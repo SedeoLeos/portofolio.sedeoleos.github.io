@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+      @apply py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+    }
+    .social {
+        @apply bg-zinc-800 rounded-full flex justify-center items-center p-2 text-white
+    }
+    .nav-link.scrollto {
+        @apply bg-primary p-2 block w-full text-white rounded-full 
+    }
+    .card-skill {
+        @apply border border-dashed border-gray-300 flex-1 flex p-5 text-base rounded gap-4 flex-col
+    }
+    .stack div {
+        @apply  bg-teal-500/10 backdrop-blur-sm  p-4 rounded-full overflow-hidden w-20 h-20 flex justify-center items-center
+    }
+    .stack div img {
+        @apply   w-16 h-16 object-contain
+    }
+    .ex-section {
+        @apply flex gap-10 p-5
+       
+    }
+    .ex-ul {
+        @apply flex gap-10 flex-col
+        
+    }
+    .ex-item {
+        @apply flex gap-10 flex-col
+        
+    }
+    .ex-headers:first-child {
+        @apply pl-2 border-l-2 border-slate-400
+        
+    }
+    .ex-headers {
+        @apply flex justify-between items-center
+        
+    }
+    .swiper-slide {
+        @apply  w-3/4
+    }
+    .card {
+        @apply p-5 rounded-lg
+    }
+}

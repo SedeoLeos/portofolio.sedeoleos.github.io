@@ -3,18 +3,17 @@ particlesJS("particles-js", {
     number: { value: 160, density: { enable: true, value_area: 800 } },
     color: { value: "#121f2c" },
     shape: {
-      type: "circle",
+      type: "polygon",
       stroke: { width: 0, color: "#121f2c" },
       polygon: { nb_sides: 5 },
-      image: { src: "img/github.svg", width: 100, height: 100 },
     },
     opacity: {
-      value: 1,
+      value: 0.2,
       random: true,
       anim: { enable: true, speed: 1, opacity_min: 0, sync: false },
     },
     size: {
-      value: 3,
+      value: 10,
       random: true,
       anim: { enable: false, speed: 4, size_min: 0.3, sync: false },
     },
@@ -37,7 +36,7 @@ particlesJS("particles-js", {
     },
   },
   interactivity: {
-    detect_on: "canvas",
+    detect_on: "windows",
     events: {
       onhover: { enable: true, mode: "bubble" },
       onclick: { enable: true, mode: "repulse" },
