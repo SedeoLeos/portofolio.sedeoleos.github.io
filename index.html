@@ -1,341 +1,638 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Slaega | Portofolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="./sidebar.css" />
-  <link rel="stylesheet" href="./hero.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slaega | Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
 
-  <link rel="stylesheet" href="./util.css" />
-  <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/vendor/boxicons/css/boxicons.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+    <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/vendor/boxicons/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
-<body class="body-active">
-  <div id="particles-js"></div>
-  <header id="sidbar" class="siderbar-fixed">
-    <div class="wrapper">
-      <div class="profile">
-        <div class="avatar-wapper">
-          <img class="avatar avatar-circler" src="./assets/image/avatar.jpeg" alt="moi" />
-        </div>
-        <p class="info">Seba Gédeon </p>
-        <div class="link">
-          <a href="#" class="social"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="social"><i class="bx bxl-github"></i></a>
-          <a href="#" class="social"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="social"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="social"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li>
-            <a href="#hero" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a>
-          </li>
-          <li>
-            <a href="#about" class="nav-link scrollto active"><i class="bx bx-user"></i> <span>A propos</span></a>
-          </li>
-          <li>
-            <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Résumé</span></a>
-          </li>
-          <li>
-            <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
-          </li>
-          <li>
-            <a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a>
-          </li>
-          <li>
-            <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
-          </li>
-          <li class="space-1">
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main class="scafold">
-    <div class="badge-contenaire">
-      <button id="drawer" class="badge-theme">
-        <i class='bx bx-menu'></i>
-      </button>
-      <button id="theme" class="badge-theme">
-        <i class='bx bx-moon'></i>
-      </button>
-
-    </div>
-    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-      <div class="hero-container" data-aos="fade-in">
-        <h2>Hi, I am <br>Séba Gédeon</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere deleniti asperiores minus commodi saepe odio
-          ea fugiat quis, quas molestiae laborum eum voluptatem, nobis dignissimos aut repudiandae illum numquam quo?
-        </p>
-        <p>I'm <span class="typed" id="apropoInfo"
-            data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
-      </div>
-      <div class="space-hero"></div>
-    </section>
-    <section class="skill">
-      <div class="card-skill">
-        <p>Documentations</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eos eum alias suscipit natus amet voluptatibus
-          consectetur cumque deserunt voluptatum exercitationem nisi quibusdam velit nihil, tempore ratione voluptatem
-          illum dolore?</p>
-      </div>
-      <div class="card-skill">
-        <p>Documentations</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eos eum alias suscipit natus amet voluptatibus
-          consectetur cumque deserunt voluptatum exercitationem nisi quibusdam velit nihil, tempore ratione voluptatem
-          illum dolore?</p>
-      </div>
-      <div class="card-skill">
-        <p>Documentations</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eos eum alias suscipit natus amet voluptatibus
-          consectetur cumque deserunt voluptatum exercitationem nisi quibusdam velit nihil, tempore ratione voluptatem
-          illum dolore?</p>
-      </div>
-      <div class="card-skill">
-        <p>Documentations</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eos eum alias suscipit natus amet voluptatibus
-          consectetur cumque deserunt voluptatum exercitationem nisi quibusdam velit nihil, tempore ratione voluptatem
-          illum dolore?</p>
-      </div>
-
-    </section>
-    <section class="ex-section">
-      <h2>Experience</h2>
-      <ul class="ex-ul">
-        <li class="ex-item">
-          <div class="ex-headers">
-            <div class="ex-headers-item">
-              <div class="ex-poste">Amazon</div>
-              <div>Develloper Backend</div>
-            </div>
-            <div class="ex-headers-item">
-              2017-Present
-            </div>
-          </div>
-          <div class="ex-body">
-            As a product manager at Amazon, I was responsible for the development and execution of the company's product
-            roadmap. This included setting goals and objectives, defining features, and working with cross-functional
-            teams to bring new products and updates to market.
-          </div>
-        </li>
-        <li class="ex-item">
-          <div class="ex-headers">
-            <div class="ex-headers-item">
-              <div class="ex-poste">Amazon</div>
-              <div>Develloper Backend</div>
-            </div>
-            <div class="ex-headers-item">
-              2017-Present
-            </div>
-          </div>
-          <div class="ex-body">
-            As a product manager at Amazon, I was responsible for the development and execution of the company's product
-            roadmap. This included setting goals and objectives, defining features, and working with cross-functional
-            teams to bring new products and updates to market.
-          </div>
-        </li>
-
-      </ul>
-    </section>
-    <section class="ex-section">
-      <h2>Formation</h2>
-      <ul class="ex-ul">
-        <li class="ex-item">
-          <div class="ex-headers">
-            <div class="ex-headers-item">
-              <div class="ex-poste">Amazon</div>
-              <div>Develloper Backend</div>
-            </div>
-            <div class="ex-headers-item">
-              2017-Present
-            </div>
-          </div>
-          <div class="ex-body">
-            As a product manager at Amazon, I was responsible for the development and execution of the company's product
-            roadmap. This included setting goals and objectives, defining features, and working with cross-functional
-            teams to bring new products and updates to market.
-          </div>
-        </li>
-        <li class="ex-item">
-          <div class="ex-headers">
-            <div class="ex-headers-item">
-              <div class="ex-poste">Amazon</div>
-              <div>Develloper Backend</div>
-            </div>
-            <div class="ex-headers-item">
-              2017-Present
-            </div>
-          </div>
-          <div class="ex-body">
-            As a product manager at Amazon, I was responsible for the development and execution of the company's product
-            roadmap. This included setting goals and objectives, defining features, and working with cross-functional
-            teams to bring new products and updates to market.
-          </div>
-        </li>
-
-      </ul>
-    </section>
-    <section class="ex-section column font-12">
-      <h2>Réalisation</h2>
-      <div class="swipers" id="mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="card bg-red">
-              <div>
-                <i style="font-size:100px" class="bx bx-moon"></i>
-              </div>
-              <div class="w-space-10"></div>
-              <div class="ex-item">
-                <div class="ex-headers">
-                  <div class="ex-headers-item">Titre</div>
-                  <p class="ex-headers-item">2019</p>
+<body class="flex font-serif text-primary-color h-screen overflow-hidden">
+    
+    <header class="w-0 bg-white lg:bg-transparent overflow-hidden h-full flex absolute lg:static lg:w-64 z-10">
+        
+        <div class="flex-col flex flex-1">
+            <div class="flex-col flex bg-primary items-center p-7 gap-5">
+                <div class="p-2 rounded-full bg-secondary">
+                    <img class=" rounded-full w-32" src="./assets/image/avatar.jpeg" alt="moi" />
                 </div>
-                <p class="ex-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt rerum modi vero, qui
-                  mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam explicabo a, perferendis
-                  ut!
-                </p>
-              </div>
-              <div class="w-space-10"></div>
-
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card bg-blue">
-              <div>
-                <i style="font-size:100px" class="bx bx-moon"></i>
-              </div>
-              <div class="w-space-10"></div>
-              <div class="ex-item">
-                <div class="ex-headers">
-                  <div class="ex-headers-item">Titre</div>
-                  <p class="ex-headers-item">2019</p>
+                <p class="text-white text-3xl">Seba Gédeon </p>
+                <div class="flex gap-2">
+                    <a href=".#" class="social"><i class="bx bxl-twitter"></i></a>
+                    <a href=".#" class="social"><i class="bx bxl-github"></i></a>
+                    <a href=".#" class="social"><i class="bx bxl-instagram"></i></a>
+                    <a href=".#" class="social"><i class="bx bxl-skype"></i></a>
+                    <a href=".#" class="social"><i class="bx bxl-linkedin"></i></a>
                 </div>
-                <p class="ex-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt rerum modi vero, qui
-                  mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam explicabo a, perferendis
-                  ut!
-                </p>
-              </div>
-              <div class="w-space-10"></div>
-
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card bg-green">
-              <div>
-                <i style="font-size:100px" class="bx bx-moon"></i>
-              </div>
+            <nav class="">
+                <ul class="w-full space-y-4 p-7">
+                    <li>
+                        <a href="#hero" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link scrollto active"><i class="bx bx-user"></i> <span>A
+                                propos</span></a>
+                    </li>
+                    <li>
+                        <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i>
+                            <span>Résumé</span></a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+                            <span>Portfolio</span></a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i>
+                            <span>Services</span></a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i>
+                            <span>Contact</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-1 relative overflow-x-hidden overflow-y-scroll p-10">
+        <div id="lparticles-js" class="fixed top-0 left-0 right-0 bottom-0 "></div>
+        <div class="fixed top-0 right-0 left-0 p-5 flex justify-between items-end backdrop-blur-lg">
+            <button id="drawer" 
+                class="visble lg:hidden p-2 rounded-full flex justify-center items-center shadow-lg bg-white text-secondary">
+                <i class='bx bx-menu'></i>
+            </button>
+            <button id="theme"
+                class="p-2 rounded-full flex justify-center items-center shadow-lg bg-white text-secondary">
+                <i class='bx bx-moon'></i>
+            </button>
+        </div>
+        <section id="hero" class="flex flex-col justify-center items-center mt-36">
+            <div class="w-full  space-y-10" data-aos="fade-in">
+                <h2 class="text-4xl lg:ml-40 text-primary">Hi, I am <br>Séba Gédeon</h2>
+                <p class=" lg:ml-40 max-w-[700px]">
+                    Je suis Seba Gedeon Matsoula Malonga, un développeur passionné, enthousiaste à explorer et à
+                    apprendre constamment dans le domaine du développement logiciel. Ma passion pour la création de
+                    solutions élégantes et efficaces m'a conduit à explorer diverses technologies et plates-formes.
+                </p>
+                <p class="lg:ml-40">I'm <span class="border-b-4 border-primary" id="apropoInfo"
+                        data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+                <aside class="stack flex items-center justify-center flex-wrap gap-5 p-5 max-w-[1200px]">
+                    <div>
+                        <img src="./assets/image/stack/python.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/django-original.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/PyQt-Logo.wine.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/file-type-pip.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/java-original.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/spring.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/javafxscenebuilder2-0.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/file-type-maven.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/gradle.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/javascript.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/typescript-icon.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/nodejs-original-wordmark.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/npm.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/yarn-original.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/react.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/react-native-1.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/expo.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/nextjs.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/brand-adonis-js.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/nestjs.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/dart.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/flutter.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/php.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/composer.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/laravel.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/wordpress.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/elementor.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/mongodb-original.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/mysql-original-wordmark.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/postgresql-plain-wordmark.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/redis-plain-wordmark.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/MINIO_Bird.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/amazon-s3.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/socket-io.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/websocket.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/graphql.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/rabbitmq.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/websocket.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/kafka.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/apps-sshtunnel.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/git.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/github-original-wordmark.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/gitlab-original-wordmark.svg" alt="">
+                    </div>
 
-              <div class="ex-item">
-                <div class="ex-headers">
-                  <div class="ex-headers-item">Titre</div>
-                  <p class="ex-headers-item">2019</p>
+                    <div>
+                        <img src="./assets/image/stack/bitbucket.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/docker.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/kubernetes.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/jenkins.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/elasticsearch.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/kibana.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/prometheus.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/grafana.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/logstash.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/distributor-logo-kali-linux.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/ubuntu-inverse.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/linux-fedora.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/linux.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/figma.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img src="./assets/image/stack/file-type-firebase.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/supabase-logo-icon.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/google-cloud.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/nginx.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/apache-13.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img src="./assets/image/stack/cpanel.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/cloudpanel.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/vercel.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/netlify.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/renderco_logo.jpeg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/image/stack/hostinger.svg" alt="">
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <section class="grid grid-cols-2 p-10 gap-5 justify-center items-center bg-">
+            <div class="card-skill">
+                <p>Documentations</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eos eum alias suscipit natus amet
+                    voluptatibus
+                    consectetur cumque deserunt voluptatum exercitationem nisi quibusdam velit nihil, tempore ratione
+                    voluptatem
+                    illum dolore?</p>
+            </div>
+            <div class="card-skill">
+                <p>Documentations</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eos eum alias suscipit natus amet
+                    voluptatibus
+                    consectetur cumque deserunt voluptatum exercitationem nisi quibusdam velit nihil, tempore ratione
+                    voluptatem
+                    illum dolore?</p>
+            </div>
+            <div class="card-skill">
+                <p>Documentations</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eos eum alias suscipit natus amet
+                    voluptatibus
+                    consectetur cumque deserunt voluptatum exercitationem nisi quibusdam velit nihil, tempore ratione
+                    voluptatem
+                    illum dolore?</p>
+            </div>
+            <div class="card-skill">
+                <p>Documentations</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eos eum alias suscipit natus amet
+                    voluptatibus
+                    consectetur cumque deserunt voluptatum exercitationem nisi quibusdam velit nihil, tempore ratione
+                    voluptatem
+                    illum dolore?</p>
+            </div>
+
+        </section>
+        <section class="ex-section">
+            <h2>Experience</h2>
+            <ul class="ex-ul">
+                <li class="ex-item">
+                    <div class="ex-headers">
+                        <div class="ex-headers-item">
+                            <div class="ex-poste">Amazon</div>
+                            <div>Develloper Backend</div>
+                        </div>
+                        <div class="ex-headers-item">
+                            2017-Present
+                        </div>
+                    </div>
+                    <div class="ex-body">
+                        As a product manager at Amazon, I was responsible for the development and execution of the
+                        company's product
+                        roadmap. This included setting goals and objectives, defining features, and working with
+                        cross-functional
+                        teams to bring new products and updates to market.
+                    </div>
+                </li>
+                <li class="ex-item">
+                    <div class="ex-headers">
+                        <div class="ex-headers-item">
+                            <div class="ex-poste">Amazon</div>
+                            <div>Develloper Backend</div>
+                        </div>
+                        <div class="ex-headers-item">
+                            2017-Present
+                        </div>
+                    </div>
+                    <div class="ex-body">
+                        As a product manager at Amazon, I was responsible for the development and execution of the
+                        company's product
+                        roadmap. This included setting goals and objectives, defining features, and working with
+                        cross-functional
+                        teams to bring new products and updates to market.
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+        <section class="ex-section">
+            <h2>Formation</h2>
+            <ul class="ex-ul">
+                <li class="ex-item">
+                    <div class="ex-headers">
+                        <div class="ex-headers-item">
+                            <div class="ex-poste">Amazon</div>
+                            <div>Develloper Backend</div>
+                        </div>
+                        <div class="ex-headers-item">
+                            2017-Present
+                        </div>
+                    </div>
+                    <div class="ex-body">
+                        As a product manager at Amazon, I was responsible for the development and execution of the
+                        company's product
+                        roadmap. This included setting goals and objectives, defining features, and working with
+                        cross-functional
+                        teams to bring new products and updates to market.
+                    </div>
+                </li>
+                <li class="ex-item">
+                    <div class="ex-headers">
+                        <div class="ex-headers-item">
+                            <div class="ex-poste">Amazon</div>
+                            <div>Develloper Backend</div>
+                        </div>
+                        <div class="ex-headers-item">
+                            2017-Present
+                        </div>
+                    </div>
+                    <div class="ex-body">
+                        As a product manager at Amazon, I was responsible for the development and execution of the
+                        company's product
+                        roadmap. This included setting goals and objectives, defining features, and working with
+                        cross-functional
+                        teams to bring new products and updates to market.
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+        <section class="ex-section flex-col">
+            <h2>Réalisation</h2>
+            <div class="swipers px-20" id="mySwiper">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide">
+                        <div class="card bg-gradient-to-r from-slate-900 to-slate-700">
+
+                            <div class="ex-item">
+                               <h5> class="ex-headers-item">Titre</h5>
+                                  
+                                <p class="ex-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt
+                                    rerum modi vero, qui
+                                    mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam
+                                    explicabo a, perferendis
+                                    ut!
+                                </p>
+                            </div>
+                            <img src="./assets/image/project/banki.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card bg-gradient-to-r from-slate-900 to-slate-700">
+                            <div class="ex-item">
+                               
+                                    <h5 class="ex-headers-item">Titre</h5>
+                                   
+                                <p class="ex-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt
+                                    rerum modi vero, qui
+                                    mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam
+                                    explicabo a, perferendis
+                                    ut!
+                                </p>
+                            </div>
+                            <img src="./assets/image/project/tsaka tutora .png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card bg-gradient-to-r from-slate-900 to-slate-700">
+
+                            <div class="ex-item">
+                               
+                                    <h5 class="ex-headers-item">Titre</h5>
+                                 
+                                <p class="ex-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt
+                                    rerum modi vero, qui
+                                    mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam
+                                    explicabo a, perferendis
+                                    ut!
+                                </p>
+                            </div>
+                            <img src="./assets/image/project/tsaka web site.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card bg-gradient-to-r from-slate-900 to-slate-700">
+
+                            <div class="ex-item">
+                                    <h5 class="ex-headers-item">Titre</h5>
+                                <p class="ex-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt
+                                    rerum modi vero, qui
+                                    mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam
+                                    explicabo a, perferendis
+                                    ut!
+                                </p>
+                            </div>
+                            <img src="./assets/image/project/galerie .png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card bg-gradient-to-r from-slate-900 to-slate-700">
+
+                            <div class="ex-item">
+                               
+                                    <h5 class="ex-headers-item">Titre</h5>
+                                  
+                                <p class="ex-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt
+                                    rerum modi vero, qui
+                                    mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam
+                                    explicabo a, perferendis
+                                    ut!
+                                </p>
+                            </div>
+                            <img src="./assets/image/project/mydrive.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card bg-gradient-to-r from-slate-900 to-slate-700">
+
+                            <div class="ex-item">
+                                    <h5 class="ex-headers-item">Titre</h5>
+                                <p class="ex-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt
+                                    rerum modi vero, qui
+                                    mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam
+                                    explicabo a, perferendis
+                                    ut!
+                                </p>
+                            </div>
+                            <img src="./assets/image/project/wapitaxis.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card bg-gradient-to-r from-slate-900 to-slate-700">
+
+                            <div class="ex-item">
+                               
+                                    <h5 class="ex-headers-item">Titre</h5>
+                                   
+                                <p class="ex-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt
+                                    rerum modi vero, qui
+                                    mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam
+                                    explicabo a, perferendis
+                                    ut!
+                                </p>
+                            </div>
+                            <img src="./assets/image/project/stoprim geststock.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card bg-gradient-to-r from-slate-900 to-slate-700">
+
+                            <div class="ex-item">
+                            
+                                <h5 class="ex-headers-item">Titre</h5>  
+                                <p class="ex-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt
+                                    rerum modi vero, qui
+                                    mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam
+                                    explicabo a, perferendis
+                                    ut!
+                                </p>
+                            </div>
+                            <img src="./assets/image/project/Capture d’écran 2024-05-12 à 14.28.53.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card bg-gradient-to-r from-slate-900 to-slate-700">
+
+                            <div class="ex-item">
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing</h5>
+                                <p class="ex-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt
+                                    rerum modi vero, qui
+                                    mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam
+                                    explicabo a, perferendis
+                                    ut!
+                                </p>
+                            </div>
+                            <img src="./assets/image/project/Capture d’écran 2024-05-12 à 14.28.40.png" alt="">
+                        </div>
+                    </div>
                 </div>
-                <p class="ex-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt rerum modi vero, qui
-                  mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam explicabo a, perferendis
-                  ut!
-                </p>
-              </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card bg-red">
-              <div>
-                <i style="font-size:100px" class="bx bx-moon"></i>
-              </div>
-              <div class="w-space-10"></div>
-              <div class="ex-item">
-                <div class="ex-headers">
-                  <div class="ex-headers-item">Titre</div>
-                  <p class="ex-headers-item">2019</p>
+        </section>
+        <section class="p-10 flex bg-primary rounded-lg">
+            <div class="flex flex-col items-center justify-center gap-y-5 p-10 text-white">
+                <h4 class="text-3xl w-80">
+                    Let's discuss on something cool together
+                </h4>
+                <div class="flex flex-col w-full gap-y-2">
+                    <span>smatsoula19@gmail.com</span>
+                    <span>+ 242 - 06 - 690 - 01 - 10 </span>
+                    <span>123 Street 456 House </span>
                 </div>
-                <p class="ex-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt rerum modi vero, qui
-                  mollitia fuga quasi ipsum magnam illo est molestiae quidem sed soluta ipsam explicabo a, perferendis
-                  ut!
-                </p>
-              </div>
-              <div class="w-space-10"></div>
+            </div>
+            <div class="bg-white flex-1 p-10 rounded-xl ">
+                <form action="" class="space-y-4 text-slate-500">
+                    <div class="relative ">
+                        <input type="text"
+                            class="peer w-full h-10 p-2 outline-slate-300 border border-slate-100 rounded-sm">
+                        <label class="pr-2 absolute top-2 left-2 peer-focus:-top-4 peer-focus:bg-white" for="">Votre
+                            nom</label>
+                    </div>
+                    <div class="relative ">
+                        <input type="text"
+                            class="peer w-full h-10 p-2 outline-slate-300 border border-slate-100 rounded-sm">
+                        <label class="pr-2 absolute top-2 left-2 peer-focus:-top-4 peer-focus:bg-white" for="">Votre
+                            email</label>
+                    </div>
+                    <div class="relative">
+                        <textarea
+                            class="peer w-full h-20 p-2 border border-slate-100 outline-slate-300 rounded-sm"></textarea>
+                        <label class="pr-2 absolute top-2 left-2 peer-focus:-top-4 peer-focus:bg-white" for="">Votre
+                            message</label>
+                    </div>
+                    <button type="button"
+                        class="bg-primary shadow-lg shadow-primary/50 rounded-lg px-8 py-4 align-middle text-white">Envoyer</button>
+
+                </form>
 
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="ex-section row">
-      <div>
-        <div>
-          <h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit odit
-            suscipit saepe explicabo, labore impedit.
-          </h4>
-          <ul>
-            <li>smatsoula19@gmail.com</li>
-            <li>+242-06-690-01-10</li>
-            <li>Brazzaville/congo</li>
-          </ul>
-        </div>
-      </div>
-      <form>
-        <div class="column space-between align-item-center form-div">
-          <div class="column input-div">
-            <label>Email</label>
-            <input type="email" />
-          </div>
-          <div class="column input-div">
-            <label>Message</label>
-            <textarea></textarea>
-          </div>
-          <div class="h-space-5"></div>
-          <div class="row justify-content-end input-div">
-            <button>Envoyer</button>
-          </div>
-        </div>
-        <div class="h-space-20"></div>
-      </form>
 
-    </section>
-    <footer class="flex-rom">
-      <span>Slaega</span>
-      <hr class="hr" />
-      <span>CopyRitgh 2023</span>
-    </footer>
+        </section>
+    </main>
 
-  </main>
+
 
 </body>
-
 <script src="./script.js"></script>
 <script src="./particles.min.js"></script> <!-- stats.js lib -->
-<script src="./pratice.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<!-- Initialize Swiper -->
 <script>
-  var swiper = new Swiper("#mySwiper", {
-    effect: "cards",
-    grabCursor: true,
-    spaceBetween: 30,
-    loop: true,
-    autoplay: {
-      delay: 10000,
-    },
-  });
+    var swiper = new Swiper("#mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 10000,
+        },
+    });
 </script>
 
 </html>
