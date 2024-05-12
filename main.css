@@ -16,13 +16,13 @@
         @apply border border-dashed border-gray-300 flex-1 flex p-5 text-base rounded gap-4 flex-col
     }
     .stack div {
-        @apply  bg-teal-500/10 backdrop-blur-sm  p-4 rounded-full overflow-hidden w-20 h-20 flex justify-center items-center
+        @apply  bg-slate-100 backdrop-blur-sm  p-4 rounded-lg overflow-hidden w-20 h-20 flex justify-center items-center
     }
     .stack div img {
         @apply   w-16 h-16 object-contain
     }
     .ex-section {
-        @apply flex gap-10 p-5
+        @apply flex gap-10 p-5 my-10
        
     }
     .ex-ul {
@@ -30,7 +30,7 @@
         
     }
     .ex-item {
-        @apply flex gap-10 flex-col
+        @apply flex gap-10 flex-col flex-1
         
     }
     .ex-headers:first-child {
@@ -45,6 +45,15 @@
         @apply  w-3/4
     }
     .card {
-        @apply p-5 rounded-lg
+        @apply p-5 rounded-lg flex  text-white gap-5
+    }
+    .card img{
+        @apply h-80 flex-1 rounded-lg object-cover
+    }
+    body.active header {
+        @apply w-64 
+    }
+    body.active main div:nth-child(1) {
+        @apply left-64 
     }
 }
